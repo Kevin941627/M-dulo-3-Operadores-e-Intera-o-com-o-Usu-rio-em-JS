@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle, #0b0f1a, #000);
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #ff3c3c;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff0000;
+}
+
+.hidden {
+  display: none;
+}

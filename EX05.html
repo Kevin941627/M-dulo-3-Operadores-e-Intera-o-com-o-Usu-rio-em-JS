@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Batalha das 12 Casas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔥 Batalha das 12 Casas 🔥</h1>
+
+    <div id="entrada">
+      <input type="text" id="nome" placeholder="Digite seu nome">
+      <input type="number" id="cosmo" placeholder="Cosmo inicial">
+      <a href="jornada.html">
+  <button>Iniciar Jornada</button>
+</a>
+    </div>
+    <div class=""></div>
+
+    <div id="jogo" class="hidden">
+      <h2 id="status"></h2>
+      <p id="casa"></p>
+
+      <button onclick="decisao(true)">Sacrificar Sentido</button>
+      <button onclick="decisao(false)">Seguir Normal</button>
+    </div>
+
+    <div id="resultado" class="hidden"></div>
+  </div>
+<body>
+
+  <div class="container">
+    <h1>🔥 Jornada das 12 Casas 🔥</h1>
+
+    <!-- ENTRADA -->
+    <div id="entrada">
+      <input type="text" id="nome" placeholder="Seu nome">
+      <input type="number" id="cosmo" placeholder="Cosmo inicial">
+      <button id="btnComecar">Começar</button>
+    </div>
+
+    <!-- JOGO -->
+    <div id="jogo" class="hidden">
+      <h2 id="status"></h2>
+      <p id="casa"></p>
+
+      <button id="btnSacrificar">Sacrificar Sentido</button>
+      <button id="btnNormal">Seguir Normal</button>
+    </div>
+
+    <!-- RESULTADO -->
+    <div id="resultado" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
